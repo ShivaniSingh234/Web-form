@@ -1,0 +1,17 @@
+h2{
+    background-color: lime;
+    text-shadow:  2px 2px 2px  yellow , 0px -2px 2px red;
+}
+li:nth-child(3n+2){
+    background-color: yellowgreen;
+}
+h3{
+    background-color: cadetblue;
+    display: inline;
+    padding: 5px 10px 20px 10px;
+}
+body{
+    /*
+   background:linear-gradient(to top right,rgb(105, 103, 3),rgb(118, 240, 228),green,purple,black) */
+   background: radial-gradient(yellow,white,red,pink,purple,rgb(88, 88, 151),green,blue,red,aqua,hotpink);
+}
